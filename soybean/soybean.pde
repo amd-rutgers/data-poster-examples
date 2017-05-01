@@ -1,9 +1,8 @@
-import processing.pdf.*;
 
 Table data;
 
 void setup() {
-  size(1000, 500, PDF, "soybean.pdf");
+  size(1000, 500);
   background(255);
   
   
@@ -37,6 +36,4 @@ void setup() {
     ellipse(0, height/2, radius, radius);  
     translate(w, 0);
   }  
-  
-  exit();
 }
